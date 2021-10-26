@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a5c89efe1560468796ae70be70d5c538" Name="Diagram1">
+        <EntityTypeShape EntityType="AirTicketModel.Airplane" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirTicketModel.City" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirTicketModel.FlightType" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirTicketModel.Pilot" Width="1.5" PointX="1.5" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirTicketModel.Schedule" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirTicketModel.Ticket" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="AirTicketModel.FK__Airplanes__Pilot__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="AirTicketModel.FK__Cities__Airplane__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="AirTicketModel.FK__Tickets__Airplan__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="AirTicketModel.FK__Cities__Schedule__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="AirTicketModel.FK__Tickets__City_Id__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="AirTicketModel.FK__Tickets__FlightT__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="AirTicketModel.FK__Tickets__Schedul__31EC6D26" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
